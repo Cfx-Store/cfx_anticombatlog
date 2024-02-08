@@ -22,7 +22,6 @@ Citizen.CreateThread(function ()
         end
 
         if inCombat and combatTimer == 0 then 
-            print('faLSE STATE BAGG')
             LocalPlayer.state:set("inCombat", false, true)
         end
         Wait(1000)
